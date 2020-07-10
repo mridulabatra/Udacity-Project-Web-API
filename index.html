@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="static/StyleSheet1.css" />
+    <script src="static/Script1.js"></script>
+</head>
+<body>
+        <div class="container">
+            <div class="app-title">
+                <p>Weather</p>
+            </div>
+            <div class="notification"> </div>
+            <div class="weather-container">
+                <div class="weather-icon">
+                    <img src="static/blur-cars-dew-drops-125510.jpg" alt="">
+                </div>
+                <div class="temperature-value">
+                    <p><span style="font-size:30px"></span><span id="tempValue"></span><span style="font-size:30px">°C</span></p>
+                </div>
+                <div class="temperature-description">
+                    <p id="tempDesc"> - </p>
+                </div>
+                <div class="location">
+                    <p id="locate">-</p>
+                </div>
+                <center>
+                    <div id="text">
+                        <input type="text" placeholder="Enter City Name" id="city" />
+                    </div>
+                    <div class="button">
+                        <input type="button" onclick="performAction()" value="button"/>
+                    </div>
+                </center>
+            </div>
+        </div>
+</body>
+</html>

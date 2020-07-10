@@ -1,0 +1,15 @@
+{
+  "name": "string-encrypt",
+  "version": "0.0.0",
+  "description": "StringEncrypt",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
